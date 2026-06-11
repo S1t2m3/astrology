@@ -1,0 +1,40 @@
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+  }
+  .container{
+    align-items: center;
+    background-color: rgb(187, 214, 236);
+    padding:30px;
+    border:1px solid black;
+    border-radius:20px;
+    box-shadow:2px 2px 7px black;
+    max-width:300px;
+  }
+  form label{
+    font-weight:bold;
+    font-size:20px;
+  }
+  #astroForm input{
+    border:1px solid black;
+    border-radius:5px;
+    height:20px;
+    font-size:17px;
+    padding-left:5px;
+  }
+   #astroForm input[type="submit"]{
+    width:150px;
+    height:25px;
+    font-weight:bold;
+    margin-left:50px;
+   }
+   .result{
+    font-size:20px;
+    margin-top:20px;
+   }
